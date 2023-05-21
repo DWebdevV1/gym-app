@@ -5,11 +5,20 @@
 <template>
   <nav class="bg-slate-700 py-6 mb-6">
       <ul class="flex justify-evenly text-xl text-white">
-          <NuxtLink class="hover:cursor-pointer hover:opacity-50 hover:underline" to="/dashboard">Dashboard</NuxtLink>
-          <NuxtLink class="hover:cursor-pointer hover:opacity-50 hover:underline" to="/workouts">My Workouts</NuxtLink>
-          <NuxtLink class="hover:cursor-pointer hover:opacity-50 hover:underline" to="/explore">Explore Workouts</NuxtLink>
-          <NuxtLink class="hover:cursor-pointer hover:opacity-50 hover:underline" to="/about">About</NuxtLink>
-          <NuxtLink class="hover:cursor-pointer hover:opacity-50 hover:underline" to="/contact">Contact</NuxtLink>
+          <NuxtLink class="flex items-center gap-1 hover:cursor-pointer hover:opacity-50" to="/dashboard">
+            <Icon name="dashicons:dashboard"></Icon>Dashboard</NuxtLink>
+
+          <NuxtLink class="flex items-center gap-1 hover:cursor-pointer hover:opacity-50" to="/workouts">
+            <Icon name="material-symbols:sports-tennis-rounded"></Icon>My Workouts</NuxtLink>
+
+          <NuxtLink class="flex items-center gap-1 hover:cursor-pointer hover:opacity-50" to="/explore">
+            <Icon name="material-symbols:travel-explore"></Icon>Explore Workouts</NuxtLink>
+
+          <NuxtLink class="flex items-center gap-1 hover:cursor-pointer hover:opacity-50" to="/about">
+            <Icon name="material-symbols:contact-support"></Icon>About</NuxtLink>
+
+          <NuxtLink class="flex items-center gap-1 hover:cursor-pointer hover:opacity-50" to="/contact">
+            <Icon name="mingcute:contacts-fill"></Icon>Contact</NuxtLink>
       </ul>
   </nav>
 </template>
