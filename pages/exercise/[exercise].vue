@@ -26,14 +26,14 @@ onMounted( () => {
 
     <Accordion title="Exercise Images" :is-open="true" root-classes="mb-6">
       <div class="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-5 gap-4">
-        <img v-for="img of currentExercise?.images" :src="img" :alt="currentExercise.name"
+        <img v-for="img of currentExercise?.images" :src="img" :alt="currentExercise.name" loading="lazy"
              class="w-full shadow-sm hover:opacity-50 hover:cursor-pointer hover:border-l-2 hover:border-slate-700" />
       </div>
     </Accordion>
 
     <Accordion title="Exercise Videos" :is-open="false">
       <div class="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-5 gap-4">
-        <img v-for="img of currentExercise?.images" :src="img" :alt="currentExercise.name"
+        <img v-for="img of currentExercise?.images" :src="img" :alt="currentExercise.name" loading="lazy"
              class="w-full shadow-sm hover:opacity-50 hover:cursor-pointer hover:border-l-2 hover:border-slate-700" />
       </div>
     </Accordion>

@@ -6,7 +6,7 @@ const toggleHeader = () => showHeader.value = !showHeader.value;
 
 <template>
   <div :class="rootClasses">
-    <div class="bg-slate-700 p-4 flex justify-between">
+    <div class="bg-slate-700 p-4 flex justify-between select-none">
       <p class="m-0 font-bold text-white">{{ title?.toUpperCase() }}</p>
       <p class="m-0 font-bold text-white hover:cursor-pointer hover:opacity-50" @click="toggleHeader">
         <Icon v-if="showHeader" name="mdi:chevron-double-up"></Icon>
