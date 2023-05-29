@@ -8,7 +8,7 @@
       <img class="h-full w-full object-cover" src="https://placehold.co/2000x1280" alt="image" loading="lazy" />
     </header>
 
-    <section v-for="(val, index) of 5" class="mb-14 lg:mb-32">
+    <section v-for="(index) of 5" class="mb-14 lg:mb-32">
       <div class="flex flex-col-reverse gap-4 xl:gap-24 lg:items-center" :class="index % 2 === 0 ? 'xl:flex-row-reverse' : 'xl:flex-row'">
         <div>
           <h1 class="text-4xl mb-4 tracking-wide text-center xl:text-left"></h1>
