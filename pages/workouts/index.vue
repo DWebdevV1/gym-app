@@ -1,4 +1,8 @@
 <script setup lang="ts">
+//TODO call last visited exercises endpoint
+//TODO call active workout endpoint
+//TODO call workout list endpoint
+
 const navigateToWorkout = () => {
   //TODO navigate to workout
   navigateTo('/dashboard');
