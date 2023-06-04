@@ -8,7 +8,7 @@ const onCardClick = () => {
 </script>
 
 <template>
-  <Headline title="Dashboard"></Headline>
+  <Headline title="Dashboard" icon="material-symbols:dashboard"></Headline>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <div class="bg-slate-50 flex justify-center items-center p-6 h-96 shadow-sm hover:cursor-pointer hover:opacity-70 hover:border-l-2 hover:border-slate-700"
