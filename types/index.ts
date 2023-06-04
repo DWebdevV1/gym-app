@@ -3,7 +3,7 @@ declare global {
         id: number;
         name: string;
         image: string;
-        exercises: []
+        exercises: Exercise[]
     }
 
     interface Exercise {
@@ -11,6 +11,8 @@ declare global {
         name: string;
         image: string;
         description: string;
+        images: [];
+        videos: [];
     }
 }
 
