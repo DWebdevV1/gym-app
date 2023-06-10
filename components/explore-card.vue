@@ -1,7 +1,5 @@
 <script setup lang="ts">
-const props = defineProps({
-    exercise: { type: Object, required: true }
-});
+const props = defineProps<{ exercise: Workout }>();
 
 const loadExploreExercise = () => {
   const workout = props.exercise?.name?.toLowerCase();
