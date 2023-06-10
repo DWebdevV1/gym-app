@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <nav class="mb-6 p-6 md:px-0 bg-slate-700">
-    <ul class="flex justify-center flex-col gap-4 md:flex-row md:justify-evenly md:gap-0 w-full text-xl text-white">
+  <nav class="mb-6 p-6 md:px-0 bg-yellow-500">
+    <ul class="flex justify-center flex-col gap-4 md:flex-row md:justify-evenly md:gap-0 w-full text-xl text-black">
       <NuxtLink class="flex items-center gap-1 hover:cursor-pointer hover:opacity-50" to="/dashboard">
         <Icon name="dashicons:dashboard"></Icon>Dashboard</NuxtLink>
 

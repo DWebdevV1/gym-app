@@ -12,7 +12,7 @@ const openExerciseDetailPage = () => {
 </script>
 
 <template>
-  <div class="flex flex-col xl:flex-row bg-slate-50 shadow-sm hover:cursor-pointer hover:opacity-70 hover:border-l-2 hover:border-slate-700"
+  <div class="flex flex-col xl:flex-row bg-zinc-700 shadow-sm hover:cursor-pointer hover:opacity-70 hover:border-l-2 hover:border-slate-700"
        @click="openExerciseDetailPage">
     <img :src="exercise?.image" alt="exercise" loading="lazy" class="h-full max-h-56 w-full object-cover" />
     <div class="p-6">

@@ -18,7 +18,7 @@ const navigateToExercise = () => {
   <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
     <div>
       <Headline title="My active Workout" icon="material-symbols:notifications-active"></Headline>
-      <div class="bg-slate-50 mb-6 p-6 flex justify-between font-bold hover:cursor-pointer hover:opacity-50"
+      <div class="bg-zinc-700 mb-6 p-6 flex justify-between font-bold hover:cursor-pointer hover:opacity-50"
            @click="navigateToWorkout">
         <span>My active Workout Name</span>
         <Icon name="material-symbols:arrow-circle-right"></Icon>
@@ -26,7 +26,7 @@ const navigateToExercise = () => {
     </div>
     <div>
       <Headline title="My Workout List" icon="material-symbols:format-list-bulleted"></Headline>
-      <div v-for="() of 5" class="bg-slate-50 mb-6 p-6 flex justify-between font-bold hover:cursor-pointer hover:opacity-50"
+      <div v-for="() of 5" class="bg-zinc-700 mb-6 p-6 flex justify-between font-bold hover:cursor-pointer hover:opacity-50"
            @click="navigateToWorkout">
         <span>My Workout Name</span>
         <Icon name="material-symbols:arrow-circle-right"></Icon>
@@ -36,7 +36,7 @@ const navigateToExercise = () => {
 
   <div>
     <Headline title="Last visited Exercises" icon="ic:baseline-remove-red-eye"></Headline>
-    <div v-for="() of 5" class="bg-slate-50 mb-6 font-bold hover:cursor-pointer hover:opacity-50"
+    <div v-for="() of 5" class="bg-zinc-700 mb-6 font-bold hover:cursor-pointer hover:opacity-50"
          @click="navigateToExercise">
       <div class="flex items-center">
         <img class="h-32" src="https://placehold.co/400x400" alt="exercise" />

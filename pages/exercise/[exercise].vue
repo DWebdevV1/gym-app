@@ -14,7 +14,7 @@ onMounted( () => {
 
 <template>
   <div>
-    <div class="bg-slate-50 mb-6 grid grid-cols-1 md:grid-cols-2">
+    <div class="bg-zinc-700 mb-6 grid grid-cols-1 md:grid-cols-2">
       <div>
         <img class="w-full" :src="currentExercise?.image" :alt="currentExercise?.name" />
       </div>

@@ -22,7 +22,7 @@ const filteredWorkoutExercises = computed(() => exerciseFilterByName.value ?
   <div class="mb-4">
     <div class="w-full p-4">
       <h2 class="mb-4 text-2xl font-bold">Search Exercise by Name</h2>
-      <input v-model="exerciseFilterByName" class="w-full h-12" type="text"
+      <input v-model="exerciseFilterByName" class="w-full h-12 text-black font-bold" type="text"
              placeholder="Exercise by name" maxlength="75">
     </div>
   </div>
