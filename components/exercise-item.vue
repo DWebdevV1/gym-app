@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 const props = defineProps<{ exercise: Exercise }>();
 
 const openExerciseDetailPage = () => {
@@ -16,7 +15,8 @@ const openExerciseDetailPage = () => {
        @click="openExerciseDetailPage">
     <img :src="exercise?.image" alt="exercise" loading="lazy" class="h-full max-h-56 w-full object-cover" />
     <div class="p-6">
-      <h1 class="text-xl font-bold">{{ exercise?.name }}</h1>
+      <p class="italic text-right text-yellow-500">{{ exercise?.type }}</p>
+      <h1 class="text-xl font-bold mb-2">{{ exercise?.name }}</h1>
       <p>{{ textShorterByLength(exercise?.description, 150) }}</p>
     </div>
   </div>

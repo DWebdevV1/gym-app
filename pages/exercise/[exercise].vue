@@ -1,14 +1,24 @@
 <script setup lang="ts">
-const route = useRoute();
-const currentExercise = ref(null);
+const currentExercise = ref<Exercise>();
 
-onMounted( () => {
+onMounted( async () => {
   const { getOwnState } = useOwnState();
   currentExercise.value = getOwnState();
 
   if (!currentExercise.value) {
     navigateTo('/explore');
   }
+
+  await $fetch('/api/last-visited-exercises', {
+    method: 'post',
+    body: {
+      id: currentExercise.value?.id,
+      name: currentExercise.value?.name,
+      visitedOn: new Date().toLocaleString(),
+      type: currentExercise.value?.type,
+      image: currentExercise.value?.image
+    }
+  });
 })
 </script>
 
@@ -19,6 +29,7 @@ onMounted( () => {
         <img class="w-full" :src="currentExercise?.image" :alt="currentExercise?.name" />
       </div>
       <div class="p-6">
+        <p class="mb-2 italic text-right text-yellow-500">{{ currentExercise?.type }}</p>
         <h1 class="text-3xl font-bold md:mb-6">{{ currentExercise?.name }}</h1>
         <p>{{ currentExercise?.description }}</p>
       </div>

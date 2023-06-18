@@ -9,6 +9,7 @@
           "id": 1,
           "name": "Exercises Name 01",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -28,6 +29,7 @@
           "id": 2,
           "name": "Exercises Name 02",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -47,6 +49,7 @@
           "id": 3,
           "name": "Exercises Name 03",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -66,6 +69,7 @@
           "id": 4,
           "name": "Exercises Name 04",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -85,6 +89,7 @@
           "id": 5,
           "name": "Exercises Name 05",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -104,6 +109,7 @@
           "id": 6,
           "name": "Exercises Name 06",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -123,6 +129,7 @@
           "id": 7,
           "name": "Exercises Name 07",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -142,6 +149,7 @@
           "id": 8,
           "name": "Exercises Name 08",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -161,6 +169,7 @@
           "id": 9,
           "name": "Exercises Name 09",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -180,6 +189,7 @@
           "id": 10,
           "name": "Exercises Name 10",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -199,6 +209,7 @@
           "id": 11,
           "name": "Exercises Name 11",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -218,6 +229,7 @@
           "id": 12,
           "name": "Exercises Name 12",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -237,6 +249,7 @@
           "id": 13,
           "name": "Exercises Name 13",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -256,6 +269,7 @@
           "id": 14,
           "name": "Exercises Name 14",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -275,6 +289,7 @@
           "id": 15,
           "name": "Exercises Name 15",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -294,6 +309,7 @@
           "id": 16,
           "name": "Exercises Name 16",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -313,6 +329,7 @@
           "id": 17,
           "name": "Exercises Name 17",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -332,6 +349,7 @@
           "id": 18,
           "name": "Exercises Name 18",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -351,6 +369,7 @@
           "id": 19,
           "name": "Exercises Name 19",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -370,6 +389,7 @@
           "id": 20,
           "name": "Exercises Name 20",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Back",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -396,6 +416,7 @@
           "id": 1,
           "name": "Exercises Name 01",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image":"https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -415,6 +436,7 @@
           "id": 2,
           "name": "Exercises Name 02",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -434,6 +456,7 @@
           "id": 3,
           "name": "Exercises Name 03",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -453,6 +476,7 @@
           "id": 4,
           "name": "Exercises Name 04",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -472,6 +496,7 @@
           "id": 5,
           "name": "Exercises Name 05",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -491,6 +516,7 @@
           "id": 6,
           "name": "Exercises Name 06",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -510,6 +536,7 @@
           "id": 7,
           "name": "Exercises Name 07",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -529,6 +556,7 @@
           "id": 8,
           "name": "Exercises Name 08",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -548,6 +576,7 @@
           "id": 9,
           "name": "Exercises Name 09",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -567,6 +596,7 @@
           "id": 10,
           "name": "Exercises Name 10",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -586,6 +616,7 @@
           "id": 11,
           "name": "Exercises Name 11",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -605,6 +636,7 @@
           "id": 12,
           "name": "Exercises Name 12",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -624,6 +656,7 @@
           "id": 13,
           "name": "Exercises Name 13",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -643,6 +676,7 @@
           "id": 14,
           "name": "Exercises Name 14",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -662,6 +696,7 @@
           "id": 15,
           "name": "Exercises Name 15",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -681,6 +716,7 @@
           "id": 16,
           "name": "Exercises Name 16",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -700,6 +736,7 @@
           "id": 17,
           "name": "Exercises Name 17",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -719,6 +756,7 @@
           "id": 18,
           "name": "Exercises Name 18",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -738,6 +776,7 @@
           "id": 19,
           "name": "Exercises Name 19",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -757,6 +796,7 @@
           "id": 20,
           "name": "Exercises Name 20",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Chest",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -783,6 +823,7 @@
           "id": 1,
           "name": "Exercises Name 01",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image":"https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -802,6 +843,7 @@
           "id": 2,
           "name": "Exercises Name 02",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -821,6 +863,7 @@
           "id": 3,
           "name": "Exercises Name 03",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -840,6 +883,7 @@
           "id": 4,
           "name": "Exercises Name 04",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -859,6 +903,7 @@
           "id": 5,
           "name": "Exercises Name 05",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -878,6 +923,7 @@
           "id": 6,
           "name": "Exercises Name 06",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -897,6 +943,7 @@
           "id": 7,
           "name": "Exercises Name 07",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -916,6 +963,7 @@
           "id": 8,
           "name": "Exercises Name 08",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -935,6 +983,7 @@
           "id": 9,
           "name": "Exercises Name 09",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -954,6 +1003,7 @@
           "id": 10,
           "name": "Exercises Name 10",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -973,6 +1023,7 @@
           "id": 11,
           "name": "Exercises Name 11",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -992,6 +1043,7 @@
           "id": 12,
           "name": "Exercises Name 12",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1011,6 +1063,7 @@
           "id": 13,
           "name": "Exercises Name 13",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1030,6 +1083,7 @@
           "id": 14,
           "name": "Exercises Name 14",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1049,6 +1103,7 @@
           "id": 15,
           "name": "Exercises Name 15",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1068,6 +1123,7 @@
           "id": 16,
           "name": "Exercises Name 16",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1087,6 +1143,7 @@
           "id": 17,
           "name": "Exercises Name 17",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1106,6 +1163,7 @@
           "id": 18,
           "name": "Exercises Name 18",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1125,6 +1183,7 @@
           "id": 19,
           "name": "Exercises Name 19",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1144,6 +1203,7 @@
           "id": 20,
           "name": "Exercises Name 20",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Legs",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1170,6 +1230,7 @@
           "id": 1,
           "name": "Exercises Name 01",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image":"https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1189,6 +1250,7 @@
           "id": 2,
           "name": "Exercises Name 02",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1208,6 +1270,7 @@
           "id": 3,
           "name": "Exercises Name 03",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1227,6 +1290,7 @@
           "id": 4,
           "name": "Exercises Name 04",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1246,6 +1310,7 @@
           "id": 5,
           "name": "Exercises Name 05",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1265,6 +1330,7 @@
           "id": 6,
           "name": "Exercises Name 06",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1284,6 +1350,7 @@
           "id": 7,
           "name": "Exercises Name 07",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1303,6 +1370,7 @@
           "id": 8,
           "name": "Exercises Name 08",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1322,6 +1390,7 @@
           "id": 9,
           "name": "Exercises Name 09",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1341,6 +1410,7 @@
           "id": 10,
           "name": "Exercises Name 10",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1360,6 +1430,7 @@
           "id": 11,
           "name": "Exercises Name 11",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1379,6 +1450,7 @@
           "id": 12,
           "name": "Exercises Name 12",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1398,6 +1470,7 @@
           "id": 13,
           "name": "Exercises Name 13",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1417,6 +1490,7 @@
           "id": 14,
           "name": "Exercises Name 14",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1436,6 +1510,7 @@
           "id": 15,
           "name": "Exercises Name 15",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1455,6 +1530,7 @@
           "id": 16,
           "name": "Exercises Name 16",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1474,6 +1550,7 @@
           "id": 17,
           "name": "Exercises Name 17",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1493,6 +1570,7 @@
           "id": 18,
           "name": "Exercises Name 18",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1512,6 +1590,7 @@
           "id": 19,
           "name": "Exercises Name 19",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1531,6 +1610,7 @@
           "id": 20,
           "name": "Exercises Name 20",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Shoulders",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1557,6 +1637,7 @@
           "id": 1,
           "name": "Exercises Name 01",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image":"https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1576,6 +1657,7 @@
           "id": 2,
           "name": "Exercises Name 02",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1595,6 +1677,7 @@
           "id": 3,
           "name": "Exercises Name 03",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1614,6 +1697,7 @@
           "id": 4,
           "name": "Exercises Name 04",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1633,6 +1717,7 @@
           "id": 5,
           "name": "Exercises Name 05",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1652,6 +1737,7 @@
           "id": 6,
           "name": "Exercises Name 06",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1671,6 +1757,7 @@
           "id": 7,
           "name": "Exercises Name 07",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1690,6 +1777,7 @@
           "id": 8,
           "name": "Exercises Name 08",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1709,6 +1797,7 @@
           "id": 9,
           "name": "Exercises Name 09",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1728,6 +1817,7 @@
           "id": 10,
           "name": "Exercises Name 10",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1747,6 +1837,7 @@
           "id": 11,
           "name": "Exercises Name 11",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1766,6 +1857,7 @@
           "id": 12,
           "name": "Exercises Name 12",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1785,6 +1877,7 @@
           "id": 13,
           "name": "Exercises Name 13",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1804,6 +1897,7 @@
           "id": 14,
           "name": "Exercises Name 14",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1823,6 +1917,7 @@
           "id": 15,
           "name": "Exercises Name 15",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1842,6 +1937,7 @@
           "id": 16,
           "name": "Exercises Name 16",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1861,6 +1957,7 @@
           "id": 17,
           "name": "Exercises Name 17",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1880,6 +1977,7 @@
           "id": 18,
           "name": "Exercises Name 18",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1899,6 +1997,7 @@
           "id": 19,
           "name": "Exercises Name 19",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1918,6 +2017,7 @@
           "id": 20,
           "name": "Exercises Name 20",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Biceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1944,6 +2044,7 @@
           "id": 1,
           "name": "Exercises Name 01",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image":"https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1963,6 +2064,7 @@
           "id": 2,
           "name": "Exercises Name 02",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -1982,6 +2084,7 @@
           "id": 3,
           "name": "Exercises Name 03",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2001,6 +2104,7 @@
           "id": 4,
           "name": "Exercises Name 04",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2020,6 +2124,7 @@
           "id": 5,
           "name": "Exercises Name 05",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2039,6 +2144,7 @@
           "id": 6,
           "name": "Exercises Name 06",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2058,6 +2164,7 @@
           "id": 7,
           "name": "Exercises Name 07",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2077,6 +2184,7 @@
           "id": 8,
           "name": "Exercises Name 08",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2096,6 +2204,7 @@
           "id": 9,
           "name": "Exercises Name 09",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2115,6 +2224,7 @@
           "id": 10,
           "name": "Exercises Name 10",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2134,6 +2244,7 @@
           "id": 11,
           "name": "Exercises Name 11",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2153,6 +2264,7 @@
           "id": 12,
           "name": "Exercises Name 12",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2172,6 +2284,7 @@
           "id": 13,
           "name": "Exercises Name 13",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2191,6 +2304,7 @@
           "id": 14,
           "name": "Exercises Name 14",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2210,6 +2324,7 @@
           "id": 15,
           "name": "Exercises Name 15",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2229,6 +2344,7 @@
           "id": 16,
           "name": "Exercises Name 16",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2248,6 +2364,7 @@
           "id": 17,
           "name": "Exercises Name 17",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2267,6 +2384,7 @@
           "id": 18,
           "name": "Exercises Name 18",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2286,6 +2404,7 @@
           "id": 19,
           "name": "Exercises Name 19",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2305,6 +2424,7 @@
           "id": 20,
           "name": "Exercises Name 20",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+          "type": "Triceps",
           "image": "https://placehold.co/600x400",
           "images": [
             "https://placehold.co/400x400",
@@ -2321,6 +2441,37 @@
           "videos": []
         }
       ]
+    }
+  ],
+  "lastVisitedExercises": [
+    {
+      "id": 1,
+      "name": "Exercises Name 01",
+      "visitedOn": "18.6.2023, 11:35:20",
+      "type": "Back",
+      "image": "https://placehold.co/600x400"
+    },
+    {
+      "id": 2,
+      "name": "Exercises Name 02",
+      "visitedOn": "18.6.2023, 11:35:20",
+      "type": "Back",
+      "image": "https://placehold.co/600x400"
+
+    },
+    {
+      "id": 3,
+      "name": "Exercises Name 03",
+      "visitedOn": "18.6.2023, 11:35:20",
+      "type": "Legs",
+      "image": "https://placehold.co/600x400"
+    },
+    {
+      "id": 4,
+      "name": "Exercises Name 04",
+      "visitedOn": "18.6.2023, 11:35:20",
+      "type": "Biceps",
+      "image": "https://placehold.co/600x400"
     }
   ]
 }
