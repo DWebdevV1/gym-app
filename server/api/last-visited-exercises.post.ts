@@ -4,7 +4,6 @@ export default defineEventHandler(async (event) => {
     const body = await readBody(event);
 
     if (body?.id && body?.name && body?.visitedOn && body?.image) {
-        console.log('body', body);
         if (data.lastVisitedExercises.length >= 5) {
             data.lastVisitedExercises.shift();
         }
