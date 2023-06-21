@@ -3,9 +3,9 @@
 </script>
 
 <template>
-    <div class="h-full min-h-screen bg-slate-200 text-white">
+    <div class="h-full min-h-screen bg-neutral-900 text-white">
         <NavBar></NavBar>
-        <div class="container mx-auto p-6 h-full min-h-screen text-black">
+        <div class="container mx-auto p-6 h-full min-h-screen text-white">
             <NuxtPage></NuxtPage>
         </div>
     </div>
