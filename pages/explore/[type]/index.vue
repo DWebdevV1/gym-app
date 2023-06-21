@@ -2,18 +2,19 @@
 const route = useRoute();
 const exerciseFilterByName = ref('');
 
-const { data: workouts, error } = await useFetch('/api/exercises', {
+const { data: exercises } = await useFetch('/api/exercises', {
   query: {
-    explore: route.params?.workout
+    explore: route.params?.type
   }
 });
 
-const title = computed(() => `Exercises for ${capitalizeFirst(route.params?.workout as string)}`)
+const title = computed(
+    () => `Exercises for ${capitalizeFirst(route.params?.type as string)} (${filteredWorkoutExercises.value?.length})`);
 
 const filteredWorkoutExercises = computed(() => exerciseFilterByName.value ?
-    (workouts.value as Workout).exercises.filter((ex) =>
-        (ex as Exercise).name.toLowerCase().includes(exerciseFilterByName.value.toLowerCase()))
-    : (workouts.value as Workout).exercises);
+    exercises.value?.filter((ex) =>
+        (ex as Exercise).name.toLowerCase().includes(exerciseFilterByName.value.toLowerCase())) :
+    exercises.value);
 </script>
 
 <template>

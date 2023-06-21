@@ -10,7 +10,8 @@ const navigateToWorkout = () => {
 }
 
 const navigateToExercise = (ex: LastVisitedExercise) => {
-  navigateTo(`/exercise/${ex.id}`);
+  const path = (`/explore/${ex.type}/${ex.id}`).toLowerCase();
+  navigateTo(path);
 }
 </script>
 

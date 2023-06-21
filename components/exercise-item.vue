@@ -3,9 +3,8 @@ const props = defineProps<{ exercise: Exercise }>();
 
 const openExerciseDetailPage = () => {
   if (props.exercise) {
-    const { setOwnState } = useOwnState();
-    setOwnState(props.exercise);
-    navigateTo(`/exercise/${props.exercise.id}`);
+    const path = (`/explore/${props.exercise.type}/${props.exercise.id}`).toLowerCase();
+    navigateTo(path);
   }
 }
 </script>
