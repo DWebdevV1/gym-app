@@ -9,7 +9,7 @@
                root-classes="mb-6">
      </Headline>
 
-     <div class="flex flex-col lg:flex-row mb-6">
+     <div class="flex flex-col lg:flex-row gap-4 mb-6 p-6">
        <p class="text-center xl:text-left leading-relaxed tracking-wide font-light mb-2 lg:mb-6">Lorem ipsum dolor sit amet,
          consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
          labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
