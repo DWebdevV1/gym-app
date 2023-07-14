@@ -1,27 +1,26 @@
 <script setup lang="ts">
 const route = useRoute();
 
-const { data: currentExercise } = await useFetch('/api/exercises', {
+const { data } = await useFetch<Exercise>('/api/exercises', {
   query: { exerciseId: route.params.exercise }
 });
 
+const currentExercise: Exercise = data.value as Exercise;
+
 onMounted( async () => {
-  if (!currentExercise.value) {
+  if (!currentExercise) {
     navigateTo('/explore');
   }
 
-  const lastVisitedExercise: LastVisitedExercise = {
-    id: (currentExercise.value as Exercise)?.id,
-    name:  (currentExercise.value as Exercise)?.name,
+  const body: LastVisitedExercise = {
+    id: currentExercise.id,
+    name: currentExercise.name,
     visitedOn: new Date().toLocaleString(),
-    type:  (currentExercise.value as Exercise)?.type,
-    image:  (currentExercise.value as Exercise)?.image
+    type: currentExercise.type,
+    image: currentExercise.image
   }
 
-  await $fetch('/api/last-visited-exercises', {
-    method: 'post',
-    body: lastVisitedExercise
-  });
+  await $fetch('/api/last-visited-exercises', { method: 'post', body });
 });
 </script>
 
