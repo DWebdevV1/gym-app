@@ -39,11 +39,15 @@ const navigateToExercise = (ex: LastVisitedExercise) => {
     <Headline title="Last visited Exercises" icon="ic:baseline-remove-red-eye"></Headline>
     <div v-for="ex of (lastVisitedExercises as LastVisitedExercise[])"
          @click="navigateToExercise(ex)"
-         class="bg-zinc-700 mb-6 font-bold hover:cursor-pointer hover:opacity-50">
+         class="bg-zinc-700 mb-6 hover:cursor-pointer hover:opacity-50">
       <div class="flex items-center">
         <img class="h-32" :src="ex?.image" alt="exercise" />
-        <div class="p-6 flex flex-col sm:flex-row items-end sm:justify-between w-full">
-          <p><span class="text-yellow-500">{{ ex?.type }}</span> / <span>{{ ex?.name }}</span></p>
+        <div class="p-6 flex flex-col gap-1 sm:gap-0 sm:flex-row items-end sm:justify-between w-full">
+          <p>
+            <span class="text-yellow-500 italic">{{ ex?.type }}</span>
+            <br />
+            <span class="font-bold">{{ ex?.name }}</span>
+          </p>
           <span>{{ ex?.visitedOn }}</span>
           <Icon name="material-symbols:arrow-circle-right"></Icon>
         </div>
