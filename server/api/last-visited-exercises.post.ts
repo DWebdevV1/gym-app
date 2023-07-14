@@ -11,7 +11,7 @@ export default defineEventHandler(async (event) => {
         }
 
         data.lastVisitedExercises.push(body);
-        return body;
+        return data.lastVisitedExercises;
     }
 
     return data.lastVisitedExercises;
