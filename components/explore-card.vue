@@ -4,7 +4,7 @@ const props = defineProps<{ item: Workout }>();
 const loadExploreExercise = () => {
   navigateTo(`/explore/${props.item.name?.toLowerCase()}`);
 }
-const { data: numberOfExercises } = await useFetch('/api/exercises-amount', {
+const { data: numberOfExercises } = await useFetch('/api/exercise/exercises-amount', {
   query: { exerciseType: props.item.name }
 });
 </script>

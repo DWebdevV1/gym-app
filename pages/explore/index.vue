@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: workouts, error } = await useFetch('/api/workouts');
+const { data: workouts, error } = await useFetch('/api/workout/workouts');
 </script>
 
 <template>

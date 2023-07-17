@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const route = useRoute();
 
-const { data } = await useFetch<Exercise>('/api/exercises', {
+const { data } = await useFetch<Exercise>('/api/exercise/exercises', {
   query: { exerciseId: route.params.exercise }
 });
 
@@ -20,7 +20,7 @@ onMounted( async () => {
     image: currentExercise.image
   }
 
-  await $fetch('/api/last-visited-exercises', { method: 'post', body });
+  await $fetch('/api/exercise/last-visited-exercises', { method: 'post', body });
 });
 </script>
 

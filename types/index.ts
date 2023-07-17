@@ -1,4 +1,10 @@
 declare global {
+
+    interface ActiveWorkout {
+        id: number;
+        name: string;
+    }
+
     interface Workout {
         id: number;
         name: string;

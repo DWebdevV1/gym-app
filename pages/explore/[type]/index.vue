@@ -2,7 +2,7 @@
 const route = useRoute();
 const exerciseFilterByName = ref('');
 
-const { data: exercises } = await useFetch('/api/exercises', {
+const { data: exercises } = await useFetch('/api/exercise/exercises', {
   query: {
     explore: route.params?.type
   }

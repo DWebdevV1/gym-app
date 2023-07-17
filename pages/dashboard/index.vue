@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { data: workoutsAmount } = await useFetch('/api/workouts-amount');
-const { data: exercisesAmount } = await useFetch('/api/exercises-amount');
+const { data: workoutsAmount } = await useFetch('/api/workout/workouts-amount');
+const { data: exercisesAmount } = await useFetch('/api/exercise/exercises-amount');
 
 const onCardClick = () => {
   navigateTo('/explore');

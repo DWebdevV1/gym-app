@@ -1,4 +1,36 @@
 {
+  "activeWorkouts": [
+    {
+      "id": 1,
+      "name": "My active Workout 01",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "My active Workout 02",
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "My active Workout 03",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "name": "My active Workout 04",
+      "isActive": false
+    },
+    {
+      "id": 5,
+      "name": "My active Workout 05",
+      "isActive": false
+    },
+    {
+      "id": 6,
+      "name": "My active Workout 06",
+      "isActive": false
+    }
+  ],
   "workout": [
     {
       "id": 1,

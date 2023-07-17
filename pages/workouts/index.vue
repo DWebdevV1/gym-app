@@ -1,12 +1,12 @@
 <script setup lang="ts">
-const { data: lastVisitedExercises } = await useFetch('/api/last-visited-exercises');
+const { data: activeWorkout } = await useFetch('/api/workout/active-workout');
+const { data: activeWorkouts } = await useFetch('/api/workout/active-workouts');
+const { data: lastVisitedExercises } = await useFetch('/api/exercise/last-visited-exercises');
 
-//TODO call active workout endpoint
-//TODO call workout list endpoint
-
-const navigateToWorkout = () => {
-  //TODO navigate to workout
-  navigateTo('/dashboard');
+const navigateToWorkout = (workout: ActiveWorkout) => {
+  if (workout.id) {
+    navigateTo(`/workouts/${workout.id}`);
+  }
 }
 
 const navigateToExercise = (ex: LastVisitedExercise) => {
@@ -20,16 +20,16 @@ const navigateToExercise = (ex: LastVisitedExercise) => {
     <div>
       <Headline title="My active Workout" icon="material-symbols:notifications-active"></Headline>
       <div class="bg-zinc-700 mb-6 p-6 flex justify-between font-bold hover:cursor-pointer hover:opacity-50"
-           @click="navigateToWorkout">
-        <span>My active Workout Name</span>
+           @click="navigateToWorkout(activeWorkout as ActiveWorkout)">
+        <span>{{ activeWorkout?.name }}</span>
         <Icon name="material-symbols:arrow-circle-right"></Icon>
       </div>
     </div>
     <div>
       <Headline title="My Workout List" icon="material-symbols:format-list-bulleted"></Headline>
-      <div v-for="() of 5" class="bg-zinc-700 mb-6 p-6 flex justify-between font-bold hover:cursor-pointer hover:opacity-50"
-           @click="navigateToWorkout">
-        <span>My Workout Name</span>
+      <div v-for="workout of activeWorkouts" class="bg-zinc-700 mb-6 p-6 flex justify-between font-bold hover:cursor-pointer hover:opacity-50"
+           @click="navigateToWorkout(workout as ActiveWorkout)">
+        <span>{{ workout?.name }}</span>
         <Icon name="material-symbols:arrow-circle-right"></Icon>
       </div>
     </div>
