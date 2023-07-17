@@ -3,6 +3,7 @@ declare global {
     interface ActiveWorkout {
         id: number;
         name: string;
+        isActive: boolean;
     }
 
     interface Workout {
