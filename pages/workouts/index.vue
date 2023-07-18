@@ -1,16 +1,14 @@
 <script setup lang="ts">
-const { data: activeWorkout } = await useFetch('/api/workout/active-workout');
-const { data: activeWorkouts } = await useFetch('/api/workout/active-workouts');
-const { data: lastVisitedExercises } = await useFetch('/api/exercise/last-visited-exercises');
+const { data: activeWorkout } = await useFetch<ActiveWorkout>('/api/workout/active-workout');
+const { data: activeWorkouts } = await useFetch<ActiveWorkout[]>('/api/workout/active-workouts');
+const { data: lastVisitedExercises } = await useFetch<LastVisitedExercise[]>('/api/exercise/last-visited-exercises');
 
 const navigateToWorkout = (workout: ActiveWorkout) => {
-  if (workout.id) {
-    navigateTo(`/workouts/${workout.id}`);
-  }
+  navigateTo(`/workouts/${workout.id}`);
 }
 
-const navigateToExercise = (ex: LastVisitedExercise) => {
-  const path = (`/explore/${ex.type}/${ex.id}`).toLowerCase();
+const navigateToExercise = (exercise: LastVisitedExercise) => {
+  const path = (`/explore/${exercise.type}/${exercise.id}`).toLowerCase();
   navigateTo(path);
 }
 </script>
@@ -27,9 +25,10 @@ const navigateToExercise = (ex: LastVisitedExercise) => {
     </div>
     <div>
       <Headline title="My Workout List" icon="material-symbols:format-list-bulleted"></Headline>
-      <div v-for="workout of activeWorkouts" class="bg-zinc-700 mb-6 p-6 flex justify-between font-bold hover:cursor-pointer hover:opacity-50"
+      <div v-for="(workout, index) of activeWorkouts" :key="index"
+           class="bg-zinc-700 mb-6 p-6 flex justify-between font-bold hover:cursor-pointer hover:opacity-50"
            @click="navigateToWorkout(workout as ActiveWorkout)">
-        <span>{{ workout?.name }}</span>
+        <div>{{ workout?.name }}</div>
         <Icon name="material-symbols:arrow-circle-right"></Icon>
       </div>
     </div>
@@ -37,18 +36,17 @@ const navigateToExercise = (ex: LastVisitedExercise) => {
 
   <div>
     <Headline title="Last visited Exercises" icon="ic:baseline-remove-red-eye"></Headline>
-    <div v-for="ex of (lastVisitedExercises as LastVisitedExercise[])"
-         @click="navigateToExercise(ex)"
+    <div v-for="(exercise, index) of lastVisitedExercises" @click="navigateToExercise(exercise as LastVisitedExercise)" :key="index"
          class="bg-zinc-700 mb-6 hover:cursor-pointer hover:opacity-50">
       <div class="flex items-center">
-        <img class="h-32" :src="ex?.image" alt="exercise" />
+        <img class="h-32" :src="exercise?.image" alt="exercise" />
         <div class="p-6 flex flex-col gap-1 sm:gap-0 sm:flex-row items-end sm:justify-between w-full">
           <p>
-            <span class="text-yellow-500 italic">{{ ex?.type }}</span>
+            <span class="text-yellow-500 italic">{{ exercise?.type }}</span>
             <br />
-            <span class="font-bold">{{ ex?.name }}</span>
+            <span class="font-bold">{{ exercise?.name }}</span>
           </p>
-          <span>{{ ex?.visitedOn }}</span>
+          <span>{{ exercise?.visitedOn }}</span>
           <Icon name="material-symbols:arrow-circle-right"></Icon>
         </div>
       </div>
