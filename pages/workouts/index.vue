@@ -36,8 +36,8 @@ const navigateToExercise = (exercise: LastVisitedExercise) => {
 
   <div>
     <Headline title="Last visited Exercises" icon="ic:baseline-remove-red-eye"></Headline>
-    <div v-for="(exercise, index) of lastVisitedExercises" @click="navigateToExercise(exercise as LastVisitedExercise)" :key="index"
-         class="bg-zinc-700 mb-6 hover:cursor-pointer hover:opacity-50">
+    <div v-for="(exercise, index) of lastVisitedExercises" :key="index" @click="navigateToExercise(exercise as LastVisitedExercise)"
+          class="bg-zinc-700 mb-6 hover:cursor-pointer hover:opacity-50">
       <div class="flex items-center">
         <img class="h-32" :src="exercise?.image" alt="exercise" />
         <div class="p-6 flex flex-col gap-1 sm:gap-0 sm:flex-row items-end sm:justify-between w-full">
