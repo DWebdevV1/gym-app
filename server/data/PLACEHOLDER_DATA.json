@@ -3,32 +3,212 @@
     {
       "id": 1,
       "name": "My active Workout 01",
-      "isActive": true
+      "isActive": true,
+      "sessions": {
+        "session_01": {
+          "name": "Session Name 01",
+          "exercises": []
+        },
+        "session_02": {
+          "name": "Session Name 02",
+          "exercises": []
+        },
+        "session_03": {
+          "name": "Session Name 03",
+          "exercises": []
+        },
+        "session_04": {
+          "name": "Session Name 04",
+          "exercises": []
+        },
+        "session_05": {
+          "name": "Session Name 05",
+          "exercises": []
+        },
+        "session_06": {
+          "name": "Session Name 06",
+          "exercises": []
+        },
+        "session_07": {
+          "name": "Session Name 07",
+          "exercises": []
+        }
+      }
     },
     {
       "id": 2,
       "name": "My active Workout 02",
-      "isActive": false
+      "isActive": false,
+      "sessions": {
+        "session_01": {
+          "name": "Session Name 01",
+          "exercises": []
+        },
+        "session_02": {
+          "name": "Session Name 02",
+          "exercises": []
+        },
+        "session_03": {
+          "name": "Session Name 03",
+          "exercises": []
+        },
+        "session_04": {
+          "name": "Session Name 04",
+          "exercises": []
+        },
+        "session_05": {
+          "name": "Session Name 05",
+          "exercises": []
+        },
+        "session_06": {
+          "name": "Session Name 06",
+          "exercises": []
+        },
+        "session_07": {
+          "name": "Session Name 07",
+          "exercises": []
+        }
+      }
     },
     {
       "id": 3,
       "name": "My active Workout 03",
-      "isActive": false
+      "isActive": false,
+      "sessions": {
+        "session_01": {
+          "name": "Session Name 01",
+          "exercises": []
+        },
+        "session_02": {
+          "name": "Session Name 02",
+          "exercises": []
+        },
+        "session_03": {
+          "name": "Session Name 03",
+          "exercises": []
+        },
+        "session_04": {
+          "name": "Session Name 04",
+          "exercises": []
+        },
+        "session_05": {
+          "name": "Session Name 05",
+          "exercises": []
+        },
+        "session_06": {
+          "name": "Session Name 06",
+          "exercises": []
+        },
+        "session_07": {
+          "name": "Session Name 07",
+          "exercises": []
+        }
+      }
     },
     {
       "id": 4,
       "name": "My active Workout 04",
-      "isActive": false
+      "isActive": false,
+      "sessions": {
+        "session_01": {
+          "name": "Session Name 01",
+          "exercises": []
+        },
+        "session_02": {
+          "name": "Session Name 02",
+          "exercises": []
+        },
+        "session_03": {
+          "name": "Session Name 03",
+          "exercises": []
+        },
+        "session_04": {
+          "name": "Session Name 04",
+          "exercises": []
+        },
+        "session_05": {
+          "name": "Session Name 05",
+          "exercises": []
+        },
+        "session_06": {
+          "name": "Session Name 06",
+          "exercises": []
+        },
+        "session_07": {
+          "name": "Session Name 07",
+          "exercises": []
+        }
+      }
     },
     {
       "id": 5,
       "name": "My active Workout 05",
-      "isActive": false
+      "isActive": false,
+      "sessions": {
+        "session_01": {
+          "name": "Session Name 01",
+          "exercises": []
+        },
+        "session_02": {
+          "name": "Session Name 02",
+          "exercises": []
+        },
+        "session_03": {
+          "name": "Session Name 03",
+          "exercises": []
+        },
+        "session_04": {
+          "name": "Session Name 04",
+          "exercises": []
+        },
+        "session_05": {
+          "name": "Session Name 05",
+          "exercises": []
+        },
+        "session_06": {
+          "name": "Session Name 06",
+          "exercises": []
+        },
+        "session_07": {
+          "name": "Session Name 07",
+          "exercises": []
+        }
+      }
     },
     {
       "id": 6,
       "name": "My active Workout 06",
-      "isActive": false
+      "isActive": false,
+      "sessions": {
+        "session_01": {
+          "name": "Session Name 01",
+          "exercises": []
+        },
+        "session_02": {
+          "name": "Session Name 02",
+          "exercises": []
+        },
+        "session_03": {
+          "name": "Session Name 03",
+          "exercises": []
+        },
+        "session_04": {
+          "name": "Session Name 04",
+          "exercises": []
+        },
+        "session_05": {
+          "name": "Session Name 05",
+          "exercises": []
+        },
+        "session_06": {
+          "name": "Session Name 06",
+          "exercises": []
+        },
+        "session_07": {
+          "name": "Session Name 07",
+          "exercises": []
+        }
+      }
     }
   ],
   "workout": [

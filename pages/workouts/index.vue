@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { data: activeWorkout } = await useFetch<ActiveWorkout>('/api/workout/active-workout');
-const { data: activeWorkouts } = await useFetch<ActiveWorkout[]>('/api/workout/active-workouts');
+const { data: activeWorkout } = await useFetch<ActiveWorkout>('/api/workout/active-workout', { query: { active: true }});
+const { data: activeWorkouts } = await useFetch<ActiveWorkout[]>('/api/workout/active-workout');
 const { data: lastVisitedExercises } = await useFetch<LastVisitedExercise[]>('/api/exercise/last-visited-exercises');
 
 const navigateToWorkout = (workout: ActiveWorkout) => {
