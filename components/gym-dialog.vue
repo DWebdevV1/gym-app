@@ -15,7 +15,6 @@ const toggleDialog = () => {
     dialog.value?.close();
   }
 }
-
 </script>
 
 <template>
