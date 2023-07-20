@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // @ts-ignore
+import {InputConfig} from 'c12';
+
 export default defineNuxtConfig({
     app: {
         head: {
@@ -13,4 +15,4 @@ export default defineNuxtConfig({
         'nuxt-icon',
         '@vueuse/nuxt'
     ]
-})
+} as InputConfig)

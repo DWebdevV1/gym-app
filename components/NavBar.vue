@@ -4,7 +4,7 @@
 
 <template>
   <nav class="mb-6 p-6 lg:px-0 bg-yellow-500">
-    <ul class="flex justify-center flex-col gap-4 lg:flex-row lg:justify-evenly lg:gap-0 w-full text-xl text-black">
+    <ul class="text-sm flex justify-center flex-col gap-4 lg:flex-row lg:justify-evenly lg:gap-0 w-full text-black">
       <NuxtLink class="flex items-center gap-1 hover:cursor-pointer hover:opacity-50" to="/dashboard">
         <Icon name="dashicons:dashboard"></Icon>Dashboard</NuxtLink>
 

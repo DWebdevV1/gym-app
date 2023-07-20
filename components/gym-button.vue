@@ -3,21 +3,19 @@ defineProps<{ title: string, type?: 'button' | 'submit' | 'reset', icon?: string
 </script>
 
 <template>
-  <div class="flex gap-6 my-5">
-    <button v-if="isPrimary"
-            :type="type ? type : 'button'"
-            class="flex justify-center items-center gap-2 font-bold p-3 border-2 border-yellow-500 hover:bg-yellow-500 hover:text-black">
-      <Icon v-if="icon" :name="icon"></Icon>
-      <span>{{ title }}</span>
-    </button>
+  <button v-if="isPrimary"
+          :type="type ? type : 'button'"
+          class="flex justify-center items-center gap-2 font-bold p-3 border-2 border-yellow-500 hover:bg-yellow-500 hover:text-black">
+    <Icon v-if="icon" :name="icon"></Icon>
+    <span>{{ title }}</span>
+  </button>
 
-    <button v-else
-            type="button"
-            class="flex justify-center items-center gap-2 font-bold p-3 border-2 border-gray-300 hover:bg-gray-300 hover:text-black">
-      <Icon v-if="icon" :name="icon"></Icon>
-      <span>{{ title }}</span>
-    </button>
-  </div>
+  <button v-else
+          type="button"
+          class="flex justify-center items-center gap-2 font-bold p-3 border-2 border-gray-300 hover:bg-gray-300 hover:text-black">
+    <Icon v-if="icon" :name="icon"></Icon>
+    <span>{{ title }}</span>
+  </button>
 </template>
 
 <style scoped>
