@@ -1,38 +1,108 @@
 <script setup lang="ts">
 const route = useRoute();
-const { isOpen, openDialog, closeDialog } = useDialog();
 
+const { data: exercises } = await useFetch<Exercise[]>('/api/exercise/exercises');
 const { data: activeWorkout } = await useFetch<ActiveWorkout>('/api/workout/active-workout',
     { query: { workoutId: route.params['workout'] }});
-</script>
+
+const chest = computed(() => exercises.value.filter(e => e.type.toLowerCase() === 'chest'));
+const back = computed(() => exercises.value.filter(e => e.type.toLowerCase() === 'back'));
+const legs = computed(() => exercises.value.filter(e => e.type.toLowerCase() === 'legs'));
+const shoulders = computed(() => exercises.value.filter(e => e.type.toLowerCase() === 'shoulders'));
+const biceps = computed(() => exercises.value.filter(e => e.type.toLowerCase() === 'biceps'));
+const triceps = computed(() => exercises.value.filter(e => e.type.toLowerCase() === 'triceps'));
+
+const selectedSession = ref({});
+
+const selectSession = (session: any) => {
+  console.log('session', session);
+  selectedSession.value = session;
+};
+
+const selectExercise = (exercise: any) => {
+  console.log('exercise', exercise);
+}
+ </script>
 
 <template>
-  <h1 class="text-xl font-bold mb-6">{{ activeWorkout?.name }}</h1>
+  <Headline :title="activeWorkout?.name as string" icon="cil:weightlifitng"></Headline>
 
-  <div class="flex justify-end mb-6">
-    <GymButton title="Edit Workout" @click="openDialog"
-               icon="material-symbols:edit-note-sharp"
-               is-primary>
-    </GymButton>
-
-    <GymDialog :is-open="isOpen" close-btn @close-dialog="closeDialog">
-      <div class="grid grid-cols-1 gap-6">
-        <Accordion v-for="(session, index) of activeWorkout?.sessions" :key="index" :title="session?.name" :is-open="!!session?.exercises?.length">
-          <div v-if="session?.exercises?.length">{{ session?.exercises }}</div>
-        </Accordion>
+  <div class="grid grid-cols-2 gap-6">
+    <div class="flex flex-col gap-6">
+      <div v-for="(session, index) of activeWorkout?.sessions"
+           :key="index"
+           @click="selectSession(session)"
+           class="flex justify-center items-center font-bold bg-gray-700 p-6 rounded-lg h-14
+           hover:cursor-pointer hover:border-2 hover:border-yellow-500">
+        <div>{{ session?.name }}</div>
       </div>
-    </GymDialog>
+    </div>
+
+    <div class="flex flex-col gap-6">
+      <h1 class="text-2xl mb-4">Select Exercises for Session</h1>
+
+      <Accordion title="Chest">
+        <div class="grid grid-cols-3 gap-6">
+          <div v-for="exercise of chest" :key="exercise?.id" @click="selectExercise(exercise)"
+               class="flex justify-center items-center font-bold bg-gray-700 p-6
+               rounded-lg h-52 border-2 border-yellow-500 hover:cursor-pointer">
+            {{ exercise?.id }} {{ exercise?.name }}
+          </div>
+        </div>
+      </Accordion>
+
+      <Accordion title="Back">
+        <div class="grid grid-cols-3 gap-6">
+          <div v-for="exercise of back" :key="exercise?.id" @click="selectExercise(exercise)"
+               class="flex justify-center items-center font-bold bg-gray-700 p-6
+               rounded-lg h-52 border-2 border-yellow-500 hover:cursor-pointer">
+            {{ exercise?.id }} {{ exercise?.name }}
+          </div>
+        </div>
+      </Accordion>
+
+      <Accordion title="Legs">
+        <div class="grid grid-cols-3 gap-6">
+          <div v-for="exercise of legs" :key="exercise?.id" @click="selectExercise(exercise)"
+               class="flex justify-center items-center font-bold bg-gray-700 p-6
+               rounded-lg h-52 border-2 border-yellow-500 hover:cursor-pointer">
+            {{ exercise?.id }} {{ exercise?.name }}
+          </div>
+        </div>
+      </Accordion>
+
+      <Accordion title="Shoulders">
+        <div class="grid grid-cols-3 gap-6">
+          <div v-for="exercise of shoulders" :key="exercise?.id" @click="selectExercise(exercise)"
+               class="flex justify-center items-center font-bold bg-gray-700 p-6
+               rounded-lg h-52 border-2 border-yellow-500 hover:cursor-pointer">
+            {{ exercise?.id }} {{ exercise?.name }}
+          </div>
+        </div>
+      </Accordion>
+
+      <Accordion title="Biceps">
+        <div class="grid grid-cols-3 gap-6">
+          <div v-for="exercise of biceps" :key="exercise?.id" @click="selectExercise(exercise)"
+               class="flex justify-center items-center font-bold bg-gray-700 p-6
+               rounded-lg h-52 border-2 border-yellow-500 hover:cursor-pointer">
+            {{ exercise?.id }} {{ exercise?.name }}
+          </div>
+        </div>
+      </Accordion>
+
+      <Accordion title="Triceps">
+        <div class="grid grid-cols-3 gap-6">
+          <div v-for="exercise of triceps" :key="exercise?.id" @click="selectExercise(exercise)"
+               class="flex justify-center items-center font-bold bg-gray-700 p-6
+               rounded-lg h-52 border-2 border-yellow-500 hover:cursor-pointer">
+            {{ exercise?.id }} {{ exercise?.name }}
+          </div>
+        </div>
+      </Accordion>
+
+    </div>
   </div>
-
-  <pre>
-    {{ activeWorkout }}
-  </pre>
-
-<!--  <div class="grid grid-cols-1 gap-6">
-    <Accordion v-for="(session, index) of activeWorkout?.sessions" :key="index" :title="session?.name" :is-open="!!session?.exercises?.length">
-      <div v-if="session?.exercises?.length">{{ session?.exercises }}</div>
-    </Accordion>
-  </div>-->
 </template>
 
 <style scoped>

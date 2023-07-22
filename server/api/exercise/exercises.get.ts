@@ -5,11 +5,11 @@ export default defineEventHandler(event => {
 
     if (exerciseId) {
         return data.exercises.find(ex => ex.id === Number(exerciseId));
-    } else if (explore) {
-        return data.exercises
-            .filter(ex =>
-                ex.type.toLowerCase() === (explore as string).toLowerCase());
-    } else {
-        return [];
     }
+
+    if (explore) {
+        return data.exercises.filter(ex => ex.type.toLowerCase() === (explore as string).toLowerCase());
+    }
+
+    return data.exercises;
 });
