@@ -1,8 +1,5 @@
 <script setup lang="ts">
-const props = defineProps<{ isOpen: boolean, closeBtn?: boolean }>();
-const emits = defineEmits<{ closeDialog: [] }>();
-const closeModal = () => emits('closeDialog');
-
+const props = defineProps<{ isOpen: boolean }>();
 const dialog = ref<{ showModal(): void, close(): void }>();
 
 onMounted(() => toggleDialog());
@@ -22,9 +19,6 @@ const toggleDialog = () => {
           class="box-border max-h-[75vh] min-h-[10vh] min-w-[90vw] lg:min-w-[60vw] overflow-x-hidden
           overflow-scroll bg-neutral-900 text-white border-2 border-yellow-500 drop-shadow-lg">
     <slot></slot>
-    <div v-if="closeBtn" class="mt-6 flex justify-end">
-      <GymButton title="Close Modal" @click="closeModal"></GymButton>
-    </div>
   </dialog>
 </template>
 
