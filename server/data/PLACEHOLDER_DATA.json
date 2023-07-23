@@ -247,6 +247,12 @@
       "name": "Triceps",
       "image": "XXX",
       "exercises": []
+    },
+    {
+      "id": 7,
+      "name": "Cardio",
+      "image": "XXX",
+      "exercises": []
     }
   ],
   "exercises": [
@@ -2635,6 +2641,106 @@
       "name": "Exercises Name 20",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
       "type": "Triceps",
+      "image": "https://placehold.co/600x400",
+      "images": [
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400"
+      ],
+      "videos": []
+    },
+    {
+      "id": 121,
+      "name": "Exercises Name 01",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+      "type": "Cardio",
+      "image": "https://placehold.co/600x400",
+      "images": [
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400"
+      ],
+      "videos": []
+    },
+    {
+      "id": 122,
+      "name": "Exercises Name 02",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+      "type": "Cardio",
+      "image": "https://placehold.co/600x400",
+      "images": [
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400"
+      ],
+      "videos": []
+    },
+    {
+      "id": 123,
+      "name": "Exercises Name 03",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+      "type": "Cardio",
+      "image": "https://placehold.co/600x400",
+      "images": [
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400"
+      ],
+      "videos": []
+    },
+    {
+      "id": 124,
+      "name": "Exercises Name 04",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+      "type": "Cardio",
+      "image": "https://placehold.co/600x400",
+      "images": [
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400",
+        "https://placehold.co/400x400"
+      ],
+      "videos": []
+    },
+    {
+      "id": 125,
+      "name": "Exercises Name 05",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam assumenda deleniti doloremque esse fugiat inventore molestias odit, perspiciatis, quis sapiente sed, similique veniam vitae.",
+      "type": "Cardio",
       "image": "https://placehold.co/600x400",
       "images": [
         "https://placehold.co/400x400",

@@ -5,14 +5,21 @@ declare global {
         name: string;
         isActive: boolean;
         sessions: {
-            session_01: { name: string; exercises: Exercise[] },
-            session_02: { name: string; exercises: Exercise[] },
-            session_03: { name: string; exercises: Exercise[] },
-            session_04: { name: string; exercises: Exercise[] },
-            session_05: { name: string; exercises: Exercise[] },
-            session_06: { name: string; exercises: Exercise[] },
-            session_07: { name: string; exercises: Exercise[] }
+            session_01: Session,
+            session_02: Session,
+            session_03: Session,
+            session_04: Session,
+            session_05: Session,
+            session_06: Session,
+            session_07: Session
         }
+    }
+
+    interface Session {
+        id?: number;
+        name: string;
+        exercises: Exercise[];
+        isSelected?: boolean;
     }
 
     interface Workout {
